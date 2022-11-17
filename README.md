@@ -128,7 +128,6 @@ print("Bitcoin Address (c): ",bitcoinAddressCompressed)
 ## Wallet import format (WIF)
 
 A wallet import format (WIF, also known as a *wallet export format*) is a way of encoding a private ECDSA key so as to make it easier to copy. A testing suite is available for encoding and decoding of WIF at: http://gobittest.appspot.com/PrivateKey
-Thanks for reading.
 
 ### Private key to WIF
 1. Take private key.
@@ -162,6 +161,8 @@ print("Bitcoin(c) address:", base58.b58encode(CompressedWIF.decode('utf-8'))
 4. Drop the first byte (it should be 0x80) if the private key corresponded to a [compressed](todo) public key, also drop the last byte (it should be 0x01) ~~80~~```0C28FCA386C7A227600B2FE50B7CAE11EC86D3BF1FBE471BE89827E19D72AA1D```
 5. This is the private-key ```0C28FCA386C7A227600B2FE50B7CAE11EC86D3BF1FBE471BE89827E19D72AA1D```
 
+<br>
+Thanks for reading.
 <br>
 
 ## How to use script
