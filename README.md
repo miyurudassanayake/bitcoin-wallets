@@ -84,7 +84,7 @@ print("Compressed Public Key: ", PublicKeyCompressed)
 
 ### How to create a public-key hash from public-key?
 
-![public-key-hash](https://github.com/miyurudassanayake/bitcoin-adresses/blob/main/static/hash.png "public key hash")
+![public-key-hash](https://github.com/miyurudassanayake/bitcoin-wallets/blob/main/static/hash.png?raw=true "public key hash")
 
 (The same method is used for compressed and uncompressed keys.)
 
